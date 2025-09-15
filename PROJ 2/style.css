@@ -1,0 +1,111 @@
+button {
+    background-color: #fff6b6;
+    border: none;
+    color: #89a982;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    position: center;
+    font-family: 'Playfair Display';
+    text-align: center;
+    font-size: 35px;
+
+    img {
+        height: 400px;
+        width: auto;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px #795a5a1a
+    };
+
+}
+
+.title-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #89a982;
+    font-family: 'Playfair Display', serif;
+    font-size: 70px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #aaa;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff6b6;
+    box-shadow: 0 4px 8px #795a5a1a;
+    border: 2px solid #89a982;
+    box-shadow: #2b6044 3px 3px 8px;
+
+}
+
+style {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0e6d2;
+}
+body {
+    background-color: #f4e7c9;
+    margin: 0;
+    padding: 20px;
+}
+
+{h1, h2, h3, h4, h5, h6} {
+    font-family: 'Playfair Display', serif;
+    color: #89a982;
+    margin: 0;
+    padding: 10px; 
+    text-align: center;
+    text-shadow: 1px 1px 2px #aaa;
+    
+}
+button:hover {
+    box-shadow: 2px 1px 4px -4px #1e1111;
+}
+
+button:active {
+    background-color: #795a5a1a;
+    opacity: 0.8;
+}
+
+button:hover:before {
+    content: "add to cart";
+    padding: 6px;
+    position: center;
+    background: hsl(0, 17%, 45%);
+    opacity: 0.7;
+    border-radius: 5px;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 70px; 
+    font-size: 15px;
+    
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 10px;
+    border-radius: 100px;
+    box-shadow: 0 4px 8px #795a5a1a;
+}
+
+
