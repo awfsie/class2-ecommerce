@@ -21,9 +21,6 @@ button {
 }
 
 .title-row {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
     margin-bottom: 25px;
     text-align: center;
     color: #89a982;
@@ -36,11 +33,9 @@ button {
     background-color: #fff6b6;
     box-shadow: 0 4px 8px #795a5a1a;
     border: 2px solid #89a982;
-    box-shadow: #2b6044 3px 3px 8px;
-
 }
 
-style {
+html {
     font-family: 'Playfair Display', serif;
     font-size: 16px;
     color: #333;
@@ -55,13 +50,14 @@ body {
     padding: 20px;
 }
 
-{h1, h2, h3, h4, h5, h6} {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Playfair Display', serif;
     color: #89a982;
     margin: 0;
     padding: 10px; 
     text-align: center;
     text-shadow: 1px 1px 2px #aaa;
+    font-size: 25px;
     
 }
 button:hover {
@@ -92,8 +88,8 @@ button:hover:before {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    gap: 70px; 
+    
+    gap: 20px; 
     font-size: 15px;
     
 }
